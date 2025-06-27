@@ -1,3 +1,9 @@
+# My Portfolio – Powered by React + Vite
+
+This is a personal portfolio website built using React and Vite. It's fast, responsive, and deployed on Vercel.
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
