@@ -12,7 +12,7 @@ const Contact = () => {
 
     emailsjs
     .sendForm(
-      "service_ol61tsn",
+      "service_k1ob1yv",
       "template_te88dq6",
       form.current,
       "cxUhT-4o39srIJoIk"
@@ -55,21 +55,21 @@ const Contact = () => {
     <ToastContainer />
 
       {/* Section Title */}
-      <div className="text-center mb-16">
+      <div className="mb-16 text-center">
         <h2 className="text-4xl font-bold text-white">CONTACT</h2>
-        <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
-        <p className="text-gray-400 mt-4 text-lg font-semibold">
+        <div className="w-32 h-1 mx-auto mt-4 bg-purple-500"></div>
+        <p className="mt-4 text-lg font-semibold text-gray-400">
           I’d love to hear from you—reach out for any opportunities or questions!
         </p>
       </div>
 
       {/* Contact Form */}
       <div className="mt-8 w-full max-w-md bg-[#0d081f] p-6 rounded-lg shadow-lg border border-gray-700 mx-auto">
-        <h3 className="text-xl font-semibold text-white text-center leading-relaxed tracking-wide">
+        <h3 className="text-xl font-semibold leading-relaxed tracking-wide text-center text-white">
           Connect With Me <span className="ml-1">🚀</span>
         </h3>
 
-        <form ref={form} onSubmit={sendEmail} className="mt-4 flex flex-col space-y-4">
+        <form ref={form} onSubmit={sendEmail} className="flex flex-col mt-4 space-y-4">
           <input
             type="email"
             name="user_email"
@@ -100,7 +100,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
+            className="w-full py-3 font-semibold text-white transition rounded-md bg-gradient-to-r from-purple-600 to-pink-500 hover:opacity-90"
           >
             send
           </button>
